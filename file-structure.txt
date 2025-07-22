@@ -44,12 +44,6 @@ book-generation-endpoint/
 │       │       ├── payments_webhook.py
 │       │       └── retry_book_creation.py
 │       │
-│       ├── storage/
-│       │   ├── customers_data/
-│       │   │   └── customers/
-│       │   │       └── cus3298fj239_data/
-│       │   │
-│       │   └── database/
 │       │
 │       └── main.py
 │
