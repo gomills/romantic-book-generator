@@ -1,6 +1,6 @@
 # Romantic Personalized Book Generator
 
-A FastAPI application that generates personalized relationship books using OpenAI's API for text and image generation.
+A FastAPI application that generates personalized, style and content consistent relationship books using OpenAI's API for text and image generation.
 
   
 ## Overview
@@ -121,15 +121,13 @@ The system implements comprehensive error tracking throughout the generation pro
 **Backend Framework**: FastAPI with asynchronous request handling and automatic API documentation
 
 **AI Integration**: 
-- OpenAI GPT-4 for natural language generation with custom fine-tuning
-- DALL-E 3 for image synthesis with style consistency controls
-- Custom prompt engineering for relationship-specific content generation
+- OpenAI for both images and text generation.
+- Highly Custom prompt engineering for relationship-specific, consistent content generation
 
 **Document Processing Pipeline**:
-- Jinja2 templating engine for dynamic HTML generation
+- Custom HTML template placeholding with customer information
 - WeasyPrint for HTML-to-PDF conversion with custom CSS
 - GhostScript integration for PDF optimization and compression
-- Multi-threaded processing for concurrent chapter generation
 
 **Data Management**:
 - Secure file storage with proper access controls and encryption
