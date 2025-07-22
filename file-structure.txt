@@ -1,0 +1,65 @@
+book-generation-endpoint/
+│
+├── app/
+│   ├── book_generator/
+│   │   ├── src/
+│   │   │   ├── pdf_compressor/
+│   │   │   │
+│   │   │   └── pdf_generator/
+│   │   │       ├── generators/
+│   │   │       │   ├── html_template_generator/
+│   │   │       │   │
+│   │   │       │   ├── image_generator/
+│   │   │       │   │
+│   │   │       │   ├── text_generator/
+│   │   │       │   │
+│   │   │       │   └── pdf_generator/
+│   │   │       │
+│   │   │       └── pdf_gen_params.py
+│   │   │
+│   │   ├── book_generator.py
+│   │   └── README.md
+│   │
+│   └── server/
+│       ├── server_config/
+│       │   ├── server_config/
+│       │   │   └── config.py
+│       │   │
+│       │   └── pdf_worker/
+│       │       ├── pdf_worker_subprocess/
+│       │       │
+│       │       └── pdf_worker_delegator_to_subprocess/
+│       │
+│       ├── routers/
+│       │   ├── internal/
+│       │   │   ├── delete_all_customers_data.py
+│       │   │   ├── delete_uploaded_images.py
+│       │   │   ├── modify_customer_data.py
+│       │   │   ├── purge_database.py
+│       │   │   ├── retrieve_customer_data.py
+│       │   │   └── retrieve_database.py
+│       │   │
+│       │   └── public/
+│       │       ├── generate_book.py
+│       │       ├── payments_webhook.py
+│       │       └── retry_book_creation.py
+│       │
+│       ├── storage/
+│       │   ├── customers_data/
+│       │   │   └── customers/
+│       │   │       └── cus3298fj239_data/
+│       │   │
+│       │   └── database/
+│       │
+│       └── main.py
+│
+├── tests/
+│
+├── .env
+├── .gitignore
+├── .python-version
+├── Dockerfile
+├── LLMCONTEXT.md
+├── pyproject.toml
+├── README.md
+└── uv.lock
