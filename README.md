@@ -2,7 +2,7 @@
 
 A FastAPI application that generates personalized, style and content consistent relationship books using OpenAI's API for text and image generation.
 
-  
+![Sample Image](https://raw.githubusercontent.com/gomills/romantic-book-generator/refs/heads/main/book_sample.png?raw=true)
 ## Overview
 
 This service creates custom PDF books based on user-provided information about their couple-relationship. The system:
